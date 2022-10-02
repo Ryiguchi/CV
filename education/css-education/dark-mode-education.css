@@ -39,7 +39,8 @@
   border-right: 5px solid #89be9e;
 }
 
-.dark-mode-checkbox:checked ~ div .skills-heading--primary {
+.dark-mode-checkbox:checked ~ div .skills-heading--primary,
+.dark-mode-checkbox:checked ~ div .skills-categories > li {
   border: 2px solid #aaa;
 }
 
@@ -68,7 +69,8 @@
 }
 
 .dark-mode-checkbox:checked ~ div .download-btn {
-  color: #aaa !important;
+  background-color: #89be9e;
+  color: #000 !important;
 }
 
 .dark-mode-checkbox:checked ~ div .download-btn:hover {

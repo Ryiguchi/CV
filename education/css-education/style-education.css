@@ -281,6 +281,7 @@ ul {
 }
 
 .school-accordion h4 {
+  text-transform: uppercase;
   margin: 0 0 1rem 1.6rem;
   color: #297a4a;
 }

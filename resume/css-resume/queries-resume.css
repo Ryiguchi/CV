@@ -1,0 +1,223 @@
+/* *************************************** */
+/* 1000 px ******************************* */
+/* *************************************** */
+
+@media (max-width: 62.5em) {
+  .container-inner {
+    width: 90%;
+  }
+}
+/* *************************************** */
+/* 900 px ******************************* */
+/* *************************************** */
+
+@media (max-width: 56.25em) {
+  .time-line {
+    margin-top: 13rem;
+  }
+
+  .title {
+    margin-bottom: 0;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .work-icon {
+    --ionicon-stroke-width: 6.4rem;
+
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+
+  .job-right .date::before,
+  .job-left .date::before {
+    width: 1.6rem;
+    height: 1.6rem;
+  }
+
+  .date {
+    font-size: 1.6rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .company {
+    font-size: 2rem;
+  }
+
+  .job-title {
+    font-size: 1.6rem;
+  }
+
+  .job-description {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  details {
+    font-size: 1.4rem;
+  }
+
+  h5 {
+    font-size: 1.4rem;
+  }
+}
+
+/* *************************************** */
+/* 700 px ******************************* */
+/* *************************************** */
+
+@media (max-width: 43.75em) {
+  .container-inner {
+    width: 80%;
+  }
+
+  .experience {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .time-line {
+    right: 95%;
+
+    margin-top: 10rem;
+  }
+
+  .job-right .date::before,
+  .job-left .date::before {
+    right: 95%;
+  }
+
+  .job {
+    text-align: left;
+    padding: 4rem 0 2rem 4rem;
+  }
+
+  .job-left details {
+    padding-left: 0;
+  }
+}
+
+/* *************************************** */
+/* 550 px ******************************* */
+/* *************************************** */
+
+@media (max-width: 34.375em) {
+  .container-inner {
+    width: 90%;
+  }
+
+  .time-line {
+    right: 90%;
+  }
+
+  .job-right .date::before,
+  .job-left .date::before {
+    right: 90%;
+  }
+}
+
+/* *************************************** */
+/* 400 px ******************************* */
+/* *************************************** */
+
+@media (max-width: 25em) {
+  .time-line {
+    margin-top: 8rem;
+  }
+
+  .job {
+    text-align: left;
+    padding: 2rem 0 2rem 2rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .work-icon {
+    --ionicon-stroke-width: 6.4rem;
+
+    width: 2rem;
+    height: 2rem;
+  }
+
+  .job-right .date::before,
+  .job-left .date::before {
+    width: 1.4rem;
+    height: 1.4rem;
+  }
+
+  .date {
+    font-size: 1.4rem;
+    margin-bottom: 1.2rem;
+  }
+
+  .company {
+    font-size: 1.6rem;
+    line-height: 1.1;
+  }
+
+  .job-title {
+    font-size: 1.4rem;
+  }
+
+  .job-description {
+    font-size: 1.2rem;
+    margin-bottom: 0.8rem;
+  }
+
+  details {
+    font-size: 1.2rem;
+  }
+
+  h5 {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+  }
+}
+
+/* *************************************** */
+/* 350 px ******************************* */
+/* *************************************** */
+
+@media (max-width: 21.875em) {
+  .work-icon {
+    display: none;
+  }
+}
+
+/* ************************************************ */
+/* PRINT QUERIES*********************************** */
+/* ************************************************ */
+
+@media print {
+  details,
+  .work-icon,
+  .header,
+  .time-line,
+  footer {
+    display: none;
+  }
+
+  .print {
+    display: initial;
+  }
+
+  .container-inner {
+    width: 100%;
+  }
+
+  .experience {
+    box-shadow: none;
+  }
+
+  .mobile-nav--icon {
+    opacity: 0;
+  }
+
+  .offsides {
+    margin-bottom: 20rem;
+  }
+}

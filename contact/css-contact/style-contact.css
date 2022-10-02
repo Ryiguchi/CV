@@ -1,0 +1,191 @@
+#contact {
+  font-weight: 700;
+  color: #297a4a;
+}
+
+/* CONTACT INFO SECTION ************************* */
+
+.contact-info-container {
+  display: flex;
+  justify-content: center;
+
+  margin: 3rem auto;
+  width: 80%;
+
+  box-shadow: -1.5rem 1.5rem 1.5rem rgba(0, 0, 0, 0.15);
+}
+
+.contact-info-section {
+  color: #fff;
+
+  background-image: linear-gradient(
+      rgba(34, 34, 34, 0.6),
+      rgba(34, 34, 34, 0.6)
+    ),
+    url("../img/ryan.webp");
+  background-size: cover;
+  background-position: center;
+  border-radius: 6px 0 0 6px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 55%;
+
+  padding: 10rem 4rem 4rem 4rem;
+}
+
+.contact-info-text {
+  font-size: 2.4rem;
+}
+
+.contact-info-text--top {
+  margin-bottom: 15rem;
+}
+
+.contact-info-link--email {
+  margin-bottom: 1rem;
+}
+
+.contact-info-link {
+  text-decoration: none;
+  color: #89be9e !important;
+  font-size: 2rem;
+  transition: all 0.5s;
+}
+
+.contact-info-link:hover {
+  color: #fff !important;
+}
+
+.contact-info-text--bottom {
+  margin-top: 12rem;
+  text-align: center;
+}
+
+/* CONTACT FORM SECTION*************************** */
+
+.contact-form-section {
+  background-color: #e3cfba;
+
+  width: 45%;
+  padding: 2rem;
+
+  border-radius: 0 6px 6px 0;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+
+  color: #297a4a;
+
+  padding: 1rem;
+}
+
+label {
+  display: block;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+
+  margin-bottom: 0.3rem;
+  padding-left: 0.2rem;
+}
+
+label span {
+  color: #297a4a;
+  font-size: 2rem;
+}
+
+form input,
+select,
+textarea {
+  width: 100%;
+  font-size: 1.6rem;
+  padding: 0.8rem 1rem;
+  color: #555;
+  border: none;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+textarea {
+  align-content: left;
+}
+
+.first-name-article input,
+.last-name-article input {
+  width: 60%;
+}
+
+form input::placeholder {
+  color: #888;
+}
+
+.contact-form *:focus {
+  outline: none;
+  box-shadow: 0 0 0 0.4rem #89be9e;
+}
+
+.form-btns {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.btn {
+  width: 10rem;
+
+  border-radius: 5px;
+}
+
+.send-btn {
+  color: #fff;
+  background-color: #297a4a;
+}
+
+.send-btn:hover {
+  color: #555;
+  background-color: #fff;
+
+  box-shadow: inset 0 0 0 1px #555, -0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.reset-btn {
+  background-color: #fff;
+
+  box-shadow: inset 0 0 0 1px #555, -0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.reset-btn:hover {
+  color: #fff;
+  background-color: #297a4a;
+
+  box-shadow: -0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+/* DOWNLOAD BUTTON********************* */
+
+.download-btn {
+  letter-spacing: 0;
+  width: 20rem;
+
+  color: #eee !important;
+  background-color: #297a4a;
+
+  margin: 3rem 0;
+  margin-left: 50%;
+  transform: translatex(-50%);
+}
+
+.download-btn:hover {
+  color: #333 !important;
+  background-color: #fff;
+
+  box-shadow: inset 0 0 0 1px #555, -0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.15);
+  transition: all 0.3s linear;
+}

@@ -1,0 +1,45 @@
+.dark-mode-checkbox:checked ~ .container .contact-form-section {
+  background-color: #495057;
+  color: #aaa;
+  transition: all 0.3s linear;
+}
+
+.dark-mode-checkbox:checked ~ .container .contact-info-section {
+  color: #89be9e;
+}
+
+.dark-mode-checkbox:checked ~ .container .contact-info-link span {
+  color: #eee;
+}
+
+.dark-mode-checkbox:checked ~ .container .contact-info-link:hover {
+  color: #89be9e;
+}
+
+.dark-mode-checkbox:checked ~ .container form {
+  color: #89be9e;
+}
+
+.dark-mode-checkbox:checked ~ .container input,
+.dark-mode-checkbox:checked ~ .container select,
+.dark-mode-checkbox:checked ~ .container textarea {
+  color: #ddd;
+  background-color: #333;
+}
+
+.dark-mode-checkbox:checked ~ .container .send-btn {
+  background-color: #297a4a;
+  color: #aaa;
+  box-shadow: none;
+  transition: all 0.3s linear;
+}
+
+.dark-mode-checkbox:checked ~ .container .btn:hover {
+  background-color: #aaa;
+  color: #000;
+}
+
+.dark-mode-checkbox:checked ~ div .download-btn {
+  box-shadow: none;
+  color: #89be9e;
+}

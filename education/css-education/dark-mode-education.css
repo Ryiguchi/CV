@@ -1,0 +1,77 @@
+/* MAIN************************************** */
+
+.dark-mode-checkbox:checked ~ div .attend-date,
+.dark-mode-checkbox:checked ~ div .school-name,
+.dark-mode-checkbox:checked ~ div ion-icon,
+.dark-mode-checkbox:checked ~ div span,
+.dark-mode-checkbox:checked ~ div h1,
+.dark-mode-checkbox:checked ~ div h2 {
+  color: #89be9e;
+  transition: all 0.3s linear;
+}
+
+.dark-mode-checkbox:checked ~ div .heading-line {
+  border: 1px solid #89be9e;
+  transition: all 0.3s linear;
+}
+
+.dark-mode-checkbox:checked ~ div .school-accordion,
+.dark-mode-checkbox:checked ~ div .school-top {
+  background: #495057;
+  color: #aaa;
+  transition: all 0.3s linear;
+}
+
+.dark-mode-checkbox:checked ~ div .download-btn {
+  color: #89be9e;
+  transition: all 0.3s linear;
+}
+.dark-mode-checkbox:checked ~ div .download-btn:hover {
+  color: #297a4a;
+  background-color: #aaa;
+}
+.dark-mode-checkbox:checked ~ div .skills-heading--primary,
+.dark-mode-checkbox:checked ~ div .skills-categories > li {
+  background-color: #495057;
+}
+
+.dark-mode-checkbox:checked ~ div .skills-container {
+  border-right: 5px solid #89be9e;
+}
+
+.dark-mode-checkbox:checked ~ div .skills-heading--primary {
+  border: 2px solid #aaa;
+}
+
+.dark-mode-checkbox:checked ~ div .skills-list--skill {
+  color: #aaa;
+}
+
+.dark-mode-checkbox:checked ~ div .logo-chas {
+  filter: brightness(350%);
+}
+
+.dark-mode-checkbox:checked ~ div .logo-occ {
+  filter: brightness(100%) grayscale(100%) invert(1);
+}
+
+.dark-mode-checkbox:checked ~ div .logo-psu {
+  filter: brightness(80%);
+}
+
+.dark-mode-checkbox:checked ~ div .logo-software {
+  stroke: #89be9e;
+}
+
+.dark-mode-checkbox:checked ~ div .skills-bar {
+  background-color: #89be9e;
+}
+
+.dark-mode-checkbox:checked ~ div .download-btn {
+  color: #aaa !important;
+}
+
+.dark-mode-checkbox:checked ~ div .download-btn:hover {
+  color: #000 !important;
+  background-color: #aaa;
+}

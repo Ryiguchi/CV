@@ -1,0 +1,281 @@
+/* **************************************** */
+/* MEDIA QUERIES ************************** */
+/* **************************************** */
+
+/* ****************************************** */
+/* 1000px ************************************* */
+/* ****************************************** */
+
+@media (max-width: 62.5em) {
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  .logo-primary {
+    font-size: 2.4rem;
+  }
+
+  .skills-category {
+    font-size: 2rem;
+  }
+  .schools-heading {
+    font-size: 2.4rem;
+  }
+
+  .school-icon {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .attend-date {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+
+  .school-name {
+    font-size: 2rem;
+    font-weight: 600;
+  }
+}
+
+/* ****************************************** */
+/* 850px ************************************* */
+/* ****************************************** */
+
+@media (max-width: 53.125em) {
+  .main {
+    flex-direction: column-reverse;
+  }
+
+  .schools {
+    width: 80%;
+    margin: 5rem auto 0 auto;
+  }
+
+  .attend-date {
+    font-size: 2rem;
+  }
+
+  .school-name {
+    font-size: 2.4rem;
+  }
+
+  .skills-container {
+    width: 80%;
+    border: none;
+    margin: auto;
+  }
+
+  .skills {
+    align-self: start;
+    margin: 4.8rem 0;
+  }
+}
+
+/* ***************************************** */
+/* 675px ************************************ */
+/* ***************************************** */
+
+@media (max-width: 42.1875em) {
+  .schools {
+    width: 90%;
+  }
+  .skills-container {
+    width: 90%;
+  }
+}
+
+/* ****************************************** */
+/* 600px ************************************ */
+/* ****************************************** */
+
+@media (max-width: 37.5em) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  .logo-primary {
+    font-size: 2.4rem;
+  }
+
+  .skills-category {
+    font-size: 1.6rem;
+  }
+
+  .school-icon {
+    width: 2.4rem;
+    height: 2.4rem;
+    margin-right: 2.4rem;
+  }
+
+  .schools-heading {
+    font-size: 2rem;
+  }
+
+  .school-top {
+    padding: 1.2rem 1.2rem;
+  }
+
+  .attend-date {
+    font-size: 1.6rem;
+  }
+
+  .school-name {
+    font-size: 1.8rem;
+  }
+
+  .arrow-down {
+    top: 2.4rem;
+    right: 1.6rem;
+  }
+
+  .arrow-up {
+    top: 2.4rem;
+    right: 1.6rem;
+  }
+
+  .accordion-toggle {
+    top: 2.5rem;
+    right: 0.5rem;
+  }
+
+  .logo-chas {
+    margin: 0;
+  }
+
+  .logo-occ {
+    margin: 0;
+  }
+
+  .logo-psu {
+    margin: 0;
+  }
+}
+
+/* ****************************************** */
+/* 475 px ************************************ */
+/* ****************************************** */
+
+@media (max-width: 29.6875em) {
+  .school-top:not(.school-top--heading) {
+    display: block;
+  }
+
+  .schools-heading {
+    text-align: center;
+  }
+
+  .attend-date {
+    display: block;
+    color: #297a4a;
+    margin-bottom: 1rem;
+  }
+
+  .school-name {
+    margin-bottom: 0.4rem;
+  }
+
+  .logo-chas,
+  .logo-occ,
+  .logo-psu {
+    display: none;
+  }
+
+  .school-accordion {
+    padding-left: 1rem;
+  }
+
+  .school-accordion h4 {
+    margin: 0 0 1rem 0;
+  }
+
+  .school-accordion ul {
+    margin-left: 1rem;
+  }
+}
+
+/* ****************************************** */
+/* 375 px ************************************ */
+/* ****************************************** */
+
+@media (max-width: 23.4375em) {
+  .school-description {
+    font-size: 1.4rem;
+  }
+
+  .skills-list--skill {
+    font-size: 1.4rem;
+  }
+
+  .skills-list-background {
+    height: 1.4rem;
+  }
+}
+
+/* ************************************************ */
+/* PRINT QUERIES*********************************** */
+/* ************************************************ */
+
+@media print {
+  .header,
+  footer,
+  .arrow-down,
+  .arrow-up,
+  .skills-list-background,
+  .skills-bar,
+  .skills-list--skill,
+  .download-btn {
+    display: none;
+  }
+
+  .print {
+    display: initial;
+  }
+
+  .school-accordion {
+    display: initial;
+  }
+
+  .school-accordion ul {
+    gap: 0.5rem;
+  }
+
+  .schools-heading,
+  .school-icon,
+  .school-accordion h4,
+  .skills-title,
+  .skills-category,
+  .logo {
+    color: #000;
+  }
+
+  .skills-heading--primary,
+  .school-top,
+  .skills-categories > li,
+  .skills-list-background,
+  .school-top {
+    box-shadow: none;
+    border-radius: 10px;
+    border: none;
+  }
+
+  .school-top--heading {
+    margin-top: 5rem;
+  }
+
+  .chas {
+    margin-bottom: 30rem;
+  }
+
+  .occ {
+    margin: 5rem 0;
+  }
+
+  .skills-container {
+    margin-top: 6rem;
+  }
+
+  .logo-software {
+    stroke: #000;
+  }
+}

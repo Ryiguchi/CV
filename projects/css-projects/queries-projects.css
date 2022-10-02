@@ -1,0 +1,664 @@
+/* 1200 px *************************************** */
+@media (max-width: 75em) {
+  /* MAIN ***************** */
+  .carousel {
+    justify-content: center;
+    gap: 1rem;
+
+    width: 95rem;
+    padding-right: 3rem;
+  }
+
+  .project {
+    padding: 3rem 1.6rem 1.6rem 1.6rem;
+    height: 100%;
+  }
+
+  .slide-front {
+    width: 55rem;
+    height: 32rem;
+
+    margin-left: 4rem;
+  }
+
+  .project-img {
+    left: 2.6rem;
+    top: 3.8rem;
+
+    width: 53%;
+  }
+
+  .project-card-text-box {
+    height: 100%;
+    padding: 1.2rem 0 1.6rem 1.6rem;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .more-btn {
+    width: 15rem;
+    padding: 0.8rem 2rem;
+  }
+
+  /* LEARN MORE MODAL ********** */
+  .more-modal {
+    right: -12rem;
+    width: 145%;
+  }
+
+  .checkbox-more {
+    bottom: 3.2rem;
+    right: 3.7rem;
+  }
+
+  .checkbox-more:checked {
+    top: -3.9rem;
+    right: -11rem;
+  }
+
+  .checkbox-more:checked ~ .more-modal {
+    top: -4.8rem;
+    right: -11.7rem;
+  }
+
+  .modal-img:first-child:hover {
+    transform: scale(200%) translateX(25%) translateY(25%);
+    z-index: 3;
+  }
+  .modal-img:nth-child(3):hover {
+    transform: scale(200%) translateX(-25%) translateY(25%);
+    z-index: 3;
+  }
+  .modal-img:nth-child(6):hover {
+    transform: scale(200%) translateX(25%) translateY(-25%);
+    z-index: 3;
+  }
+  .modal-img:last-child:hover {
+    transform: scale(200%) translateX(-25%) translateY(-25%);
+    z-index: 3;
+  }
+
+  .modal-list ul {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1.3rem;
+    list-style: none;
+    padding: 3.5rem 1rem;
+  }
+
+  .modal-list li {
+    font-size: 1.2rem;
+  }
+
+  .modal-testimonial {
+    margin-top: 0;
+  }
+
+  .modal-lorem {
+    padding: 1rem;
+  }
+
+  .modal-lorem h1 {
+    margin-bottom: 1rem;
+  }
+
+  .modal-cta h2 {
+    margin: 1rem 0 2rem 0;
+  }
+
+  .cta-btns a {
+    width: 80%;
+  }
+
+  /* NAVIGATION LEFT / RIGHT*** */
+
+  .checkbox-left {
+    left: 17.6%;
+  }
+
+  .checkbox-right {
+    right: 15.7rem;
+  }
+
+  .checkbox-left:checked {
+    left: 74.3rem;
+    z-index: 100;
+  }
+
+  .checkbox-right:checked {
+    left: 16.7rem;
+    z-index: 100;
+  }
+}
+
+/* 900  PX *******************************************/
+
+@media (max-width: 56.25em) {
+  /* MAIN ****************** */
+  .carousel {
+    width: 100%;
+  }
+
+  .slide-left {
+    display: none;
+  }
+
+  .slide-right {
+    display: none;
+  }
+
+  .slide-front {
+    width: 90%;
+  }
+
+  .monitor-img {
+    width: 90%;
+  }
+
+  .project-img {
+    left: 2.6rem;
+    top: 4.1rem;
+
+    width: 48.9%;
+  }
+
+  .project-card-text-box {
+    padding: 2.4rem 1.6rem 2.4rem 0;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  /* LEARN MORE MODAL *********** */
+
+  .more-modal {
+    right: -3.5rem;
+    width: 110%;
+  }
+  .checkbox-more:checked ~ .more-modal {
+    top: -5rem;
+    right: -3rem;
+  }
+
+  .checkbox-more {
+    bottom: 4rem;
+    right: 6.1rem;
+    width: 18rem;
+  }
+
+  .checkbox-more:checked {
+    top: -4.2rem;
+    right: -2.3rem;
+    width: 4rem;
+    z-index: 3000;
+  }
+
+  .modal-img:first-child:hover {
+    transform: scale(200%) translateX(25%) translateY(25%);
+    z-index: 3;
+  }
+  .modal-img:nth-child(3):hover {
+    transform: scale(200%) translateX(-25%) translateY(25%);
+    z-index: 3;
+  }
+  .modal-img:nth-child(6):hover {
+    transform: scale(200%) translateX(25%) translateY(-25%);
+    z-index: 3;
+  }
+  .modal-img:last-child:hover {
+    transform: scale(200%) translateX(-25%) translateY(-25%);
+    z-index: 3;
+  }
+
+  /* NAVIGATION LEFT / RIGHT***** */
+
+  .checkbox-left,
+  .checkbox-right {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    /* appearance: none; */
+
+    width: 5rem;
+    height: 5rem;
+
+    cursor: pointer;
+  }
+
+  .checkbox-left {
+    left: 2.6%;
+    z-index: 50;
+  }
+
+  .checkbox-right {
+    left: 92.5%;
+    z-index: 50;
+  }
+
+  .checkbox-left:checked {
+    left: 92.5%;
+    width: 6rem;
+    height: 6rem;
+  }
+  .checkbox-right:checked {
+    left: 1.2%;
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+/* 738  PX *******************************************/
+@media (max-width: 46.125em) {
+  /* MAIN ******************** */
+  .project-img {
+    width: 47.1%;
+  }
+
+  .project-card-text-box {
+    padding: 1.6rem 1.6rem 2.4rem 0;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  /* LEARN MORE MODAL *********** */
+
+  .checkbox-more:checked ~ .more-modal {
+    top: -4rem;
+    right: -2.5rem;
+  }
+
+  .checkbox-more:checked {
+    top: -3.1rem;
+    right: -1.6rem;
+  }
+
+  .modal-content-of {
+    align-items: center;
+    gap: 0;
+  }
+
+  .modal-list ul {
+    gap: 1rem;
+    padding: 1.6rem 1rem;
+  }
+
+  .modal-list li {
+    font-size: 1.2rem;
+  }
+
+  .modal-lorem {
+    text-align: center;
+
+    padding: 1rem;
+  }
+
+  .modal-lorem h1 {
+    font-size: 1.4rem;
+  }
+
+  .modal-cta {
+    text-align: center;
+  }
+
+  .modal-cta h2 {
+    font-size: 1.4rem;
+  }
+
+  .cta-btns a {
+    width: 90%;
+  }
+
+  .checkbox-more {
+    right: 4.6rem;
+  }
+
+  .checkbox-more:checked {
+    right: -1.6rem;
+  }
+
+  /* NAVIGATION LEFT / RIGHT ***** */
+
+  .checkbox-left {
+    left: 2.2%;
+  }
+
+  .checkbox-right {
+    left: 91.8%;
+  }
+
+  .checkbox-left:checked {
+    left: 91.1%;
+    width: 6rem;
+    height: 6rem;
+  }
+}
+
+/* 600 px ********************************** */
+
+@media (max-width: 37.5em) {
+  /* MAIN *************** */
+  .project {
+    flex-direction: column;
+    padding: 3rem 2.4rem 3rem 2.4rem;
+  }
+
+  .slide-front {
+    width: 80%;
+    height: 100%;
+
+    margin-left: 4rem;
+  }
+
+  .img-box {
+    width: 100%;
+  }
+
+  .monitor-img {
+    width: 100%;
+  }
+
+  .project-img {
+    left: 3.5rem;
+    top: 4.2rem;
+
+    width: 84%;
+  }
+
+  .project-card-text-box {
+    width: 100%;
+  }
+
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1.6rem;
+  }
+
+  .project-card-description {
+    line-height: 1.4;
+    margin-bottom: 3rem;
+  }
+
+  /* LEARN MORE MODAL ****** */
+
+  .more-modal {
+    top: -150rem;
+    right: -0.8rem;
+  }
+
+  .checkbox-more:checked ~ .more-modal {
+    top: -4.2rem;
+    right: -2rem;
+    width: 115%;
+  }
+
+  .modal-content-of {
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .modal-img:first-child:hover {
+    transform: scale(200%) translateX(25%) translateY(25%);
+    z-index: 3;
+  }
+  .modal-img:nth-child(3):hover {
+    transform: scale(200%) translateX(-25%);
+    z-index: 3;
+  }
+  .modal-img:nth-child(6):hover {
+    transform: scale(200%) translateX(25%) translateY(25%);
+    z-index: 3;
+  }
+  .modal-img:last-child:hover {
+    transform: scale(200%) translateX(-25%) translateY(-25%);
+    z-index: 3;
+  }
+
+  .modal-list ul {
+    gap: 1.6rem;
+    padding: 3.5rem 1.6rem;
+  }
+
+  .modal-list li {
+    font-size: 1.6rem;
+  }
+
+  .modal-testimonial {
+    grid-column: 1;
+    grid-row: 2;
+  }
+
+  .tamela-img {
+    height: 7rem;
+  }
+
+  .tamela-quote {
+    font-size: 1.4rem;
+  }
+
+  .modal-lorem {
+    grid-column: 2;
+    grid-row: 3;
+  }
+
+  .modal-lorem h1 {
+    font-size: 1.8rem;
+  }
+
+  .modal-lorem p {
+    font-size: 1.4rem;
+  }
+
+  .modal-cta h2 {
+    font-size: 1.8rem;
+    margin: 2rem 0 3rem 0;
+  }
+
+  .cta-btns a {
+    font-size: 1.4rem;
+  }
+
+  .checkbox-more {
+    bottom: 5.4rem;
+    right: 13.8rem;
+  }
+
+  .checkbox-more:checked {
+    top: -3.2rem;
+  }
+
+  /* NAVIGATION LEFT / RIGHT***** */
+
+  .checkbox-left {
+    left: 6%;
+    z-index: 50;
+  }
+
+  .checkbox-right {
+    left: 86.6%;
+  }
+
+  .checkbox-left:checked {
+    left: 46.8rem;
+    z-index: 100;
+  }
+  .checkbox-right:checked {
+    left: 3.1rem;
+    z-index: 100;
+  }
+}
+
+/* 550 px **************************************** */
+
+@media (max-width: 34.375em) {
+  .project-img {
+    left: 3.5rem;
+    top: 4.2rem;
+
+    width: 83%;
+  }
+
+  .checkbox-more {
+    bottom: 5.4rem;
+    right: 10.8rem;
+  }
+
+  .modal-list li {
+    font-size: 1.2rem;
+  }
+}
+
+/* 500 px **************************************** */
+@media (max-width: 31.25em) {
+  .project-img {
+    width: 81.7%;
+  }
+}
+/* 450 px **************************************** */
+@media (max-width: 28.125em) {
+  /* MAIN ********************* */
+  .carousel {
+    justify-content: flex-start;
+  }
+
+  .slide-front {
+    width: 88%;
+  }
+
+  .project {
+    width: 100%;
+  }
+
+  .project-img {
+    left: 3.3rem;
+    top: 3.9rem;
+
+    width: 82%;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .checkbox-more {
+    right: 9.1rem;
+  }
+
+  .checkbox-left {
+    left: 1%;
+  }
+
+  .checkbox-right {
+    left: 88.6%;
+  }
+
+  .checkbox-left:checked {
+    left: 88.6%;
+  }
+
+  .checkbox-right:checked {
+    left: 1%;
+  }
+}
+
+/* 400 px ********************************** */
+
+@media (max-width: 25em) {
+  .checkbox-more {
+    right: 6.1rem;
+  }
+
+  .project-img {
+    width: 79%;
+  }
+
+  /* LEARN MORE MODAL ****** */
+
+  .checkbox-more:checked ~ .more-modal {
+    top: -5rem;
+    right: -1.9rem;
+  }
+
+  .checkbox-more:checked {
+    top: -4rem;
+    right: -1rem;
+  }
+
+  .modal-img:first-child:hover {
+    transform: scale(200%) translateX(25%) translateY(25%);
+    z-index: 3;
+  }
+
+  .modal-img:nth-child(3):hover {
+    transform: scale(200%) translateX(-25%);
+  }
+
+  .modal-img:nth-child(6):hover {
+    transform: scale(200%) translateX(25%) translateY(25%);
+  }
+
+  .modal-img:last-child:hover {
+    transform: scale(200%) translateX(-25%) translateY(-25%);
+  }
+
+  .modal-list ul {
+    gap: 1rem;
+    padding: 2rem 1rem;
+  }
+
+  .tamela-img {
+    height: 5rem;
+  }
+
+  .tamela-quote {
+    font-size: 1.2rem;
+    line-height: 1.3;
+  }
+
+  .tamela-name {
+    font-size: 1rem;
+  }
+
+  .modal-lorem {
+    padding: 1rem;
+  }
+
+  .modal-lorem h1 {
+    font-size: 1.4rem;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+  }
+
+  .modal-lorem p {
+    font-size: 1.2rem;
+  }
+
+  .modal-cta {
+    padding: 1rem;
+  }
+
+  .modal-cta h2 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+  }
+
+  .cta-btns a {
+    width: 90%;
+    font-size: 1.2rem;
+  }
+}
+
+/* 350 px **************************** */
+
+@media (max-width: 21.875em) {
+  .project-img {
+    left: 3rem;
+    top: 3.6rem;
+    width: 77%;
+  }
+}

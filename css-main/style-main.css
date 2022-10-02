@@ -1,0 +1,201 @@
+/* ***************************************** */
+/* REUSABLE ******************************** */
+/* ***************************************** */
+
+h1 {
+  color: #333;
+}
+
+h4 {
+  font-size: 2rem;
+  font-weight: inherit;
+  text-transform: uppercase;
+}
+
+/* HEADER************************************* */
+
+#about {
+  font-weight: 700;
+  color: #297a4a;
+}
+
+/* HERO SECTION ***************************** */
+
+.hero-card {
+  display: flex;
+
+  width: 70%;
+  margin: 10rem auto;
+}
+
+.hero-card-left {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  background-color: #e3cfba;
+  width: 45%;
+
+  box-shadow: -1.5rem 1.5rem 1.5rem rgba(0, 0, 0, 0.15);
+  border-radius: 12px 0 0 12px;
+}
+
+.hero-img {
+  width: 55%;
+  margin: 3.2rem 0;
+  z-index: 2;
+
+  border-radius: 50%;
+}
+
+.hero-name {
+  font-size: 5.2rem;
+  color: #333;
+  display: inline-block;
+}
+
+.left-card-border {
+  display: none;
+}
+
+.right-card-border {
+  display: none;
+}
+
+.hero-card-left-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 100%;
+}
+
+.hero-line {
+  background-color: #297a4a;
+
+  width: 25%;
+  height: 0.1rem;
+  margin: 2.4rem 0;
+}
+
+.hero-title {
+  letter-spacing: 2px;
+}
+
+.hero-social {
+  display: flex;
+  justify-content: center;
+  gap: 3.2rem;
+
+  background-color: #fff;
+
+  width: 100%;
+  margin-top: 3.2rem;
+  padding: 1.6rem 0 1.4rem 0;
+
+  border-radius: 0 0 0 12px;
+}
+
+.social-icon {
+  color: #555;
+
+  height: 2.4rem;
+  width: 2.4rem;
+
+  transition: all 0.3s;
+}
+
+.social-icon:hover {
+  transform: scale(110%);
+}
+
+.hero-card-right {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+
+  width: 55%;
+  padding: 0 3.2rem;
+}
+
+.hero-card-right--title {
+  margin: 6.4rem 0 3.2rem 0;
+}
+
+.hero-header-secondary {
+  font-size: 2.4rem;
+  font-weight: inherit;
+  text-transform: uppercase;
+
+  margin-bottom: 1.6rem;
+}
+
+.hero-btns {
+  display: flex;
+  gap: 1.6rem;
+
+  margin-bottom: 4.8rem;
+}
+
+.hero-btns .btn {
+  color: #555;
+  width: 15rem;
+  transition: all 0.3s;
+}
+
+.hero-btns .btn-resume {
+  color: #fff;
+  background-color: #297a4a;
+}
+
+.btn-resume:hover {
+  color: #555;
+  background-color: #fff;
+
+  box-shadow: inset 0 0 0 1px #555, -0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.hero-btns .btn-projects {
+  background-color: #fff;
+
+  box-shadow: inset 0 0 0 1px #555, -0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.btn-projects:hover {
+  color: #fff;
+  background-color: #297a4a;
+
+  box-shadow: -0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.hero-text {
+  font-size: 1.6rem;
+  letter-spacing: 1.1px;
+}
+
+.hero-text:nth-child(2) {
+  margin-bottom: 2.4rem;
+}
+
+/* DOWNLOAD BUTTON********************* */
+
+.download-btn {
+  letter-spacing: 0;
+  width: 20rem;
+
+  color: #eee !important;
+  background-color: #297a4a;
+
+  margin-bottom: 3rem;
+  margin-left: 50%;
+  transform: translatex(-50%);
+}
+
+.download-btn:hover {
+  color: #297a4a !important;
+  background-color: #fff;
+
+  box-shadow: inset 0 0 0 1px #555, -0.3rem 0.3rem 1rem rgba(0, 0, 0, 0.15);
+  transition: all 0.3s linear;
+}

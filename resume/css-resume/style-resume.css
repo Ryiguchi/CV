@@ -40,9 +40,22 @@
   transform: translateX(50%);
 
   border-left: 3px solid #b9ffd5;
-  height: 100%;
 
   margin-top: 16rem;
+
+  height: 100%;
+
+  animation: 5s draw-line;
+}
+
+@keyframes draw-line {
+  from {
+    height: 0;
+  }
+
+  to {
+    height: 100%;
+  }
 }
 
 .job-right .date::before,
@@ -62,23 +75,48 @@
 .wine {
   grid-column: 2;
   grid-row: 2;
+
+  opacity: 100%;
+
+  animation: 0.2s appear;
 }
 
 .offsides {
   grid-column: 1;
   grid-row: 3;
   text-align: right;
+
+  opacity: 100%;
+
+  animation: 1.2s appear;
 }
 
 .jimmys {
   grid-column: 2;
   grid-row: 4;
+
+  animation: 1.8s appear;
 }
 
+@keyframes appear {
+  from {
+    opacity: 0;
+  }
+
+  75% {
+    opacity: 0%;
+  }
+
+  to {
+    opacity: 100%;
+  }
+}
 .olearys {
   grid-column: 1;
   grid-row: 5;
   text-align: right;
+
+  animation: 2.5s appear;
 }
 
 .job-right {

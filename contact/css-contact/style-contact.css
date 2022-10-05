@@ -53,6 +53,17 @@
   color: #89be9e !important;
   font-size: 2rem;
   transition: all 0.5s;
+
+  animation: pulse 1s linear infinite alternate;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(100%);
+  }
+  to {
+    transform: scale(110%);
+  }
 }
 
 .contact-info-link:hover {
@@ -91,7 +102,7 @@ label {
   font-size: 1.4rem;
   font-weight: 500;
 
-  margin-bottom: 0.3rem;
+  margin-top: 2.4rem;
   padding-left: 0.2rem;
 }
 
@@ -103,27 +114,50 @@ label span {
 form input,
 select,
 textarea {
+  font-family: inherit;
   width: 100%;
   font-size: 1.6rem;
   padding: 0.8rem 1rem;
-  color: #555;
   border: none;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
-textarea {
-  align-content: left;
-}
-
 .first-name-article input,
 .last-name-article input {
   width: 60%;
 }
+select {
+  font-size: 1.6rem;
+}
 
-form input::placeholder {
-  color: #888;
+select textarea {
+  align-content: left;
+}
+
+.contact-form label {
+  position: relative;
+}
+
+.contact-form span {
+  position: absolute;
+  left: 1rem;
+  top: 0.5rem;
+
+  cursor: text;
+
+  transition: all 0.5s;
+}
+
+input:focus + span,
+input:not(:placeholder-shown) + span,
+select:valid + span,
+textarea:valid + span,
+textarea:focus + span {
+  transform: translate(-0.7rem, -3rem);
+  font-size: 1.6rem;
+  font-weight: initial;
 }
 
 .contact-form *:focus {

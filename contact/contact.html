@@ -135,63 +135,71 @@
           <section class="contact-form-section">
             <form class="contact-form" name="sign-up" netlify>
               <article class="first-name-article">
-                <label for="first-name">First name: <span>*</span></label>
-                <input
-                  id="first-name"
-                  type="text"
-                  placeholder="John"
-                  name="first-name"
-                  required
-                />
+                <label for="first-name">
+                  <input
+                    id="first-name"
+                    type="text"
+                    name="first-name"
+                    placeholder=" "
+                    required
+                  />
+                  <span>First name: *</span>
+                </label>
               </article>
 
               <article class="last-name-article">
-                <label for="last-name">Last name: <span>*</span></label>
-                <input
-                  id="last-name"
-                  type="text"
-                  placeholder="Smith"
-                  name="last-name"
-                  required
-                />
+                <label for="last-name">
+                  <input
+                    id="last-name"
+                    type="text"
+                    name="last-name"
+                    placeholder=" "
+                    required
+                  />
+                  <span>Last name: *</span>
+                </label>
               </article>
               <article class="email-article">
-                <label for="email">Email address: <span>*</span></label>
-                <input
-                  id="email"
-                  type="email"
-                  placeholder="john_smith@gmail.com"
-                  name="email"
-                  required
-                />
+                <label for="email">
+                  <input
+                    id="email"
+                    type="email"
+                    placeholder=" "
+                    name="email"
+                    required
+                  />
+                  <span>Email address: *</span>
+                </label>
               </article>
               <article class="phone-article">
-                <label for="phone">Phone number (optional):</label>
-                <input
-                  id="phone"
-                  type="tel"
-                  placeholder="123-4567-890"
-                  name="phone"
-                />
+                <label for="phone">
+                  <input id="phone" type="tel" placeholder=" " name="phone" />
+                  <span>Phone number:</span>
+                </label>
               </article>
               <article class="reason-article">
-                <label for="contact-reason"
-                  >Reason for contacting me: <span>*</span></label
-                >
-                <select id="contact-reason" name="contact-reason" required>
-                  <option value="">please choose an option:</option>
-                  <option value="employment">Employment opportunity</option>
-                  <option value="collaboration">Collaboration</option>
-                  <option value="consulting">Consulting</option>
-                  <option value="other">Other</option>
-                </select>
+                <label for="contact-reason">
+                  <select id="contact-reason" name="contact-reason" required>
+                    <option value=""></option>
+                    <option value="employment">Employment opportunity</option>
+                    <option value="collaboration">Collaboration</option>
+                    <option value="consulting">Consulting</option>
+                    <option value="other">Other</option>
+                  </select>
+                
+                  <span>Reason for contacting me:*</span>
+                </label>
+                
+                
               </article>
+
               <article class="message-article">
                 <label for="message"
-                  >Write your message here: <span>*</span></label
+                  >
+                  <textarea id="message" name="message" rows="10" cols="50" required>
+                  </textarea><span>Write your message here: *</span></label></label
                 >
-                <textarea id="message" name="message" rows="10" cols="50">
-                </textarea>
+                
               </article>
               <article class="form-btns">
                 <input type="submit" value="Send" class="send-btn btn" />

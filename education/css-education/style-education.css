@@ -135,50 +135,157 @@ ul {
 .skills-english {
   width: 100%;
   border-radius: 0.4rem;
+
+  animation: bar100 3s ease-in infinite;
 }
 
+@keyframes bar100 {
+  from {
+    width: 0;
+  }
+
+  50% {
+    width: 100%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
 .skills-swedish {
   width: 60%;
+
+  animation: bar60 3s ease-in infinite;
+}
+
+@keyframes bar60 {
+  from {
+    width: 0;
+  }
+
+  50% {
+    width: 60%;
+  }
+
+  to {
+    width: 60%;
+  }
 }
 
 .skills-html {
   width: 85%;
+
+  animation: bar85 3s ease-in infinite;
+}
+
+@keyframes bar85 {
+  from {
+    width: 0;
+  }
+
+  50% {
+    width: 85%;
+  }
+
+  to {
+    width: 85%;
+  }
 }
 
 .skills-css {
   width: 80%;
+
+  animation: bar80 3s ease-in infinite;
+}
+
+@keyframes bar80 {
+  from {
+    width: 0;
+  }
+
+  50% {
+    width: 80%;
+  }
+
+  to {
+    width: 80%;
+  }
 }
 
 .skills-javascript {
   width: 75%;
+
+  animation: bar75 3s ease-in infinite;
+}
+
+@keyframes bar75 {
+  from {
+    width: 0;
+  }
+
+  50% {
+    width: 75%;
+  }
+
+  to {
+    width: 75%;
+  }
 }
 
 .skills-java {
   width: 50%;
+
+  animation: bar50 3s ease-in infinite;
+}
+
+@keyframes bar50 {
+  from {
+    width: 0;
+  }
+
+  50% {
+    width: 50%;
+  }
+
+  to {
+    width: 50%;
+  }
 }
 
 .skills-c-sharp {
   width: 50%;
+
+  animation: bar50 3s ease-in infinite;
 }
 
 .skills-vs-code {
   width: 75%;
+
+  animation: bar75 3s ease-in infinite;
 }
 
 .skills-figma {
   width: 60%;
+
+  animation: bar60 3s ease-in infinite;
 }
 
 .skills-jira {
   width: 50%;
+
+  animation: bar50 3s ease-in infinite;
 }
 
 .skills-miro {
   width: 50%;
+
+  animation: bar50 3s ease-in infinite;
 }
 
 .skills-notion {
   width: 75%;
+
+  animation: bar75 3s ease-in infinite;
 }
 
 /* ****************************************** */

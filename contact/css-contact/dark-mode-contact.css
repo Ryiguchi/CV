@@ -1,23 +1,19 @@
 .dark-mode-checkbox:checked ~ .container .contact-form-section {
-  background-color: #495057;
+  background-color: #495057a1;
+
   color: #aaa;
   transition: all 0.3s linear;
 }
 
-.dark-mode-checkbox:checked ~ .container .contact-info-section {
+.dark-mode-checkbox:checked ~ .container .contact-info-section,
+.dark-mode-checkbox:checked ~ .container .contact-info-link:hover,
+.dark-mode-checkbox:checked ~ .container form,
+.dark-mode-checkbox:checked ~ .container label span {
   color: #89be9e;
 }
 
 .dark-mode-checkbox:checked ~ .container .contact-info-link span {
   color: #eee;
-}
-
-.dark-mode-checkbox:checked ~ .container .contact-info-link:hover {
-  color: #89be9e;
-}
-
-.dark-mode-checkbox:checked ~ .container form {
-  color: #89be9e;
 }
 
 .dark-mode-checkbox:checked ~ .container input,

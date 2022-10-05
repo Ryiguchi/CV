@@ -71,9 +71,21 @@
   }
 
   form {
-    color: #89be9e;
+    color: #297a4a;
 
     padding: 1rem;
+  }
+
+  label span {
+    color: #297a4a;
+  }
+
+  input:focus + span,
+  input:not(:placeholder-shown) + span,
+  select:valid + span,
+  textarea:valid + span,
+  textarea:focus + span {
+    color: #89be9e;
   }
 }
 

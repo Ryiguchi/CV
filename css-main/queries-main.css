@@ -7,9 +7,12 @@
     width: 80%;
   }
 
+  .title-typewriter {
+    margin: 4.8rem auto 2.4rem auto;
+  }
+
   .hero-card-right h1 {
     font-size: 5.2rem;
-    margin: 4.8rem 0 2.4rem 0;
   }
 
   .hero-name {
@@ -36,10 +39,15 @@
     border-radius: 12px;
   }
 
+  .hero-img-container {
+    position: relative;
+    width: 100%;
+    height: 32rem;
+  }
+
   .hero-img {
-    justify-self: center;
-    margin: 4.8rem 0;
-    width: 70%;
+    width: 80%;
+    height: auto;
   }
 
   .hero-card-left-text {
@@ -116,10 +124,13 @@
     margin: 2.4rem 0;
   }
 
-  .hero-card-right h1 {
-    font-size: 4rem;
+  .title-typewriter {
     margin-top: 0;
     margin-bottom: 1.6rem;
+  }
+
+  .hero-card-right h1 {
+    font-size: 4rem;
   }
 
   .hero-header-secondary {
@@ -217,8 +228,7 @@
   }
 
   .hero-img {
-    margin-top: 4.8rem;
-    margin-bottom: 0;
+    transform: translate(-50%, -40%);
   }
 
   .hero-name {
@@ -279,10 +289,6 @@
   .hero-card {
     margin: 6rem auto;
     width: 80%;
-  }
-
-  .hero-img {
-    margin-top: 3.2rem;
   }
 
   .hero-name {

@@ -187,12 +187,15 @@ h4 {
 
 .title-typewriter {
   overflow: hidden;
-  border-right: 0.15rem solid #297a4a;
+  border-right: 0.3rem solid #297a4a;
   white-space: nowrap;
 
   margin: 6.4rem auto 3.2rem auto;
 
-  animation: typing 2s steps(12, end), blink-cursor 0.75s step-end infinite;
+  animation: typing 2s steps(20, end) infinite,
+    blink-cursor 0.75s step-end infinite;
+
+  /* steps(12, end) */
 }
 
 @keyframes typing {

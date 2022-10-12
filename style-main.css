@@ -58,18 +58,38 @@ h4 {
 
   border-radius: 50%;
 
-  animation: drop ease-in 4s 0.5s;
+  animation: drop ease-in 5s 0.5s infinite;
   animation-fill-mode: forwards;
 }
 
 @keyframes drop {
-  10% {
+  4% {
     top: 50%;
     animation-timing-function: ease-out;
   }
 
-  19% {
-    top: -15rem;
+  8% {
+    top: -23rem;
+    animation-timing-function: ease-in;
+  }
+
+  12% {
+    top: 50%;
+    animation-timing-function: ease-out;
+  }
+
+  16% {
+    top: -13.25rem;
+    animation-timing-function: ease-in;
+  }
+
+  20% {
+    top: 50%;
+    animation-timing-function: ease-out;
+  }
+
+  24% {
+    top: -5.94rem;
     animation-timing-function: ease-in;
   }
 
@@ -78,40 +98,80 @@ h4 {
     animation-timing-function: ease-out;
   }
 
-  37% {
-    top: -5rem;
+  32% {
+    top: -0.45rem;
     animation-timing-function: ease-in;
   }
 
-  46% {
+  36% {
     top: 50%;
     animation-timing-function: ease-out;
   }
-  55% {
-    top: -2.5rem;
+
+  40% {
+    top: 3.66rem;
     animation-timing-function: ease-in;
   }
+
+  44% {
+    top: 50%;
+    animation-timing-function: ease-out;
+  }
+
+  48% {
+    top: 6.745rem;
+    animation-timing-function: ease-in;
+  }
+
+  52% {
+    top: 50%;
+    animation-timing-function: ease-out;
+  }
+
+  56% {
+    top: 9.06rem;
+    animation-timing-function: ease-in;
+  }
+
+  60% {
+    top: 50%;
+    animation-timing-function: ease-out;
+  }
+
   64% {
-    top: 50%;
-    animation-timing-function: ease-out;
-  }
-  73% {
-    top: 2.5rem;
+    top: 10.79rem;
     animation-timing-function: ease-in;
   }
-  82% {
+
+  68% {
     top: 50%;
     animation-timing-function: ease-out;
   }
 
-  91% {
-    top: 3.75rem;
+  72% {
+    top: 12.1rem;
     animation-timing-function: ease-in;
+  }
+
+  76% {
+    top: 50%;
+    animation-timing-function: ease-out;
+  }
+
+  80% {
+    top: 13.07rem;
+    animation-timing-function: ease-in;
+  }
+
+  84% {
+    top: 50%;
+    transform: rotate(-90deg) translateY(-150%);
+    animation-timing-function: ease-out;
   }
 
   to {
-    top: 50%;
-    animation-timing-function: ease-out;
+    top: 50rem;
+    transform: rotate(-180deg) translateY(-250%);
   }
 }
 

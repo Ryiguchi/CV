@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="universal.css" />
-    <link rel="stylesheet" href="style-main.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +14,10 @@
     <title>Ryan Iguchi &dash; CV</title>
   </head>
   <body>
-    <input type="checkbox" class="dark-mode-checkbox" />
+    <input
+      type="checkbox"
+      class="dark-mode-checkbox dark-mode-checkbox-about"
+    />
     <header class="header">
       <section class="header-left">
         <div class="header-mobile-name">
@@ -28,33 +30,27 @@
       <nav class="header-nav" aria-label="Site navigation">
         <ul class="header-nav--list">
           <li>
-            <a href="index.html" id="about" class="header-nav--link"
+            <a href="#" id="about" class="header-nav--link current-page"
               >about me</a
             >
           </li>
           <li>
-            <a href="resume/resume.html" id="resume" class="header-nav--link"
+            <a href="resume.html" id="resume" class="header-nav--link"
               >resume</a
             >
           </li>
           <li>
-            <a
-              href="education/education.html"
-              id="education"
-              class="header-nav--link"
+            <a href="education.html" id="education" class="header-nav--link"
               >education</a
             >
           </li>
           <li>
-            <a
-              href="projects/projects.html"
-              id="portfolio"
-              class="header-nav--link"
+            <a href="projects.html" id="portfolio" class="header-nav--link"
               >portfolio</a
             >
           </li>
           <li>
-            <a href="contact/contact.html" id="contact" class="header-nav--link"
+            <a href="contact.html" id="contact" class="header-nav--link"
               >contact</a
             >
           </li>
@@ -67,46 +63,40 @@
       <nav class="mobile-nav" aria-label="Site navigation">
         <ul class="mobil-nav--list">
           <li>
-            <a href="index.html" id="about" class="mobile-nav--link"
+            <a href="#" id="about" class="mobile-nav--link current-page"
               >about me</a
             >
           </li>
           <li>
-            <a href="resume/resume.html" id="resume" class="mobile-nav--link"
+            <a href="resume.html" id="resume" class="mobile-nav--link"
               >resume</a
             >
           </li>
           <li>
-            <a
-              href="education/education.html"
-              id="education"
-              class="mobile-nav--link"
+            <a href="education.html" id="education" class="mobile-nav--link"
               >education</a
             >
           </li>
           <li>
-            <a
-              href="projects/projects.html"
-              id="portfolio"
-              class="mobile-nav--link"
+            <a href="projects.html" id="portfolio" class="mobile-nav--link"
               >portfolio</a
             >
           </li>
           <li>
-            <a href="contact/contact.html" id="contact" class="mobile-nav--link"
+            <a href="contact.html" id="contact" class="mobile-nav--link"
               >Contact</a
             >
           </li>
         </ul>
       </nav>
     </header>
-    <div class="container">
-      <main class="main">
+    <div class="container container-hero">
+      <main class="main main-hero">
         <div class="hero-card">
           <section class="hero-card-left">
             <div class="hero-img-container">
               <img
-                src="img/hero.webp"
+                src="img/img-about/hero.webp"
                 alt="Picture of Ryan Iguchi"
                 class="hero-img"
               />

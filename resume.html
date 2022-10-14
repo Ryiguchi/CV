@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../universal.css" />
-    <link rel="stylesheet" href="style-resume.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +14,10 @@
     <title>Ryan Iguchi &dash; Resume</title>
   </head>
   <body>
-    <input type="checkbox" class="dark-mode-checkbox" />
+    <input
+      type="checkbox"
+      class="dark-mode-checkbox dark-mode-checkbox-resume"
+    />
 
     <header class="header">
       <section class="header-left">
@@ -29,34 +31,27 @@
       <nav class="header-nav" aria-label="Site navigation">
         <ul class="header-nav--list">
           <li>
-            <a href="../index.html" id="about" class="header-nav--link"
+            <a href="index.html" id="about" class="header-nav--link"
               >about me</a
             >
           </li>
           <li>
-            <a href="#" id="resume" class="header-nav--link">resume</a>
+            <a href="#" id="resume" class="header-nav--link current-page"
+              >resume</a
+            >
           </li>
           <li>
-            <a
-              href="../education/education.html"
-              id="education"
-              class="header-nav--link"
+            <a href="education.html" id="education" class="header-nav--link"
               >education</a
             >
           </li>
           <li>
-            <a
-              href="../projects/projects.html"
-              id="portfolio"
-              class="header-nav--link"
+            <a href="projects.html" id="portfolio" class="header-nav--link"
               >portfolio</a
             >
           </li>
           <li>
-            <a
-              href="../contact/contact.html"
-              id="contact"
-              class="header-nav--link"
+            <a href="contact.html" id="contact" class="header-nav--link"
               >contact</a
             >
           </li>
@@ -69,34 +64,27 @@
       <nav class="mobile-nav" aria-label="Site navigation">
         <ul class="mobil-nav--list">
           <li>
-            <a href="../index.html" id="about" class="mobile-nav--link"
+            <a href="index.html" id="about" class="mobile-nav--link"
               >about me</a
             >
           </li>
           <li>
-            <a href="#" id="resume" class="mobile-nav--link">resume</a>
+            <a href="#" id="resume" class="mobile-nav--link current-page"
+              >resume</a
+            >
           </li>
           <li>
-            <a
-              href="../education/education.html"
-              id="education"
-              class="mobile-nav--link"
+            <a href="education.html" id="education" class="mobile-nav--link"
               >education</a
             >
           </li>
           <li>
-            <a
-              href="../projects/projects.html"
-              id="portfolio"
-              class="mobile-nav--link"
+            <a href="projects.html" id="portfolio" class="mobile-nav--link"
               >portfolio</a
             >
           </li>
           <li>
-            <a
-              href="../contact/contact.html"
-              id="contact"
-              class="mobile-nav--link"
+            <a href="contact.html" id="contact" class="mobile-nav--link"
               >Contact</a
             >
           </li>
@@ -109,9 +97,9 @@
         <div class="container-inner">
           <div class="experience">
             <span class="time-line"></span>
-            <span class="title">
+            <span class="resume-title">
               <ion-icon name="briefcase-outline" class="work-icon"></ion-icon>
-              <h1>Work Experience</h1>
+              <h1 class="resume-title-text">Work Experience</h1>
             </span>
 
             <section class="wine job job-right">
@@ -125,7 +113,7 @@
               </p>
 
               <details>
-                <h5>Responsibilities and Achievements</h5>
+                <h5 class="resume-h5">Responsibilities and Achievements</h5>
                 <ul>
                   <li>Wine and food pairing</li>
                   <li>Organizing the events</li>
@@ -134,7 +122,7 @@
                 </ul>
               </details>
               <div class="print">
-                <h5>Responsibilities and Achievements</h5>
+                <h5 class="resume-h5">Responsibilities and Achievements</h5>
                 <ul>
                   <li>Wine and food pairing</li>
                   <li>Organizing the events</li>
@@ -154,7 +142,7 @@
               </p>
 
               <details>
-                <h5>Responsibilities and Achievements</h5>
+                <h5 class="resume-h5">Responsibilities and Achievements</h5>
                 <ul>
                   <li>Menu creation and updating</li>
                   <li>Ordering all the supplies for the restaurant</li>
@@ -164,7 +152,7 @@
                 </ul>
               </details>
               <div class="print">
-                <h5>Responsibilities and Achievements</h5>
+                <h5 class="resume-h5">Responsibilities and Achievements</h5>
                 <ul>
                   <li>Menu creation and updating</li>
                   <li>Ordering all the supplies for the restaurant</li>
@@ -184,14 +172,14 @@
               </p>
 
               <details>
-                <h5>Responsibilities and Achievements</h5>
+                <h5 class="resume-h5">Responsibilities and Achievements</h5>
                 <ul>
                   <li>Preparations</li>
                   <li>Al a carte menu</li>
                 </ul>
               </details>
               <div class="print">
-                <h5>Responsibilities and Achievements</h5>
+                <h5 class="resume-h5">Responsibilities and Achievements</h5>
                 <ul>
                   <li>Preparations</li>
                   <li>Al a carte menu</li>
@@ -208,7 +196,7 @@
               </p>
 
               <details>
-                <h5>Responsibilities and Achievements</h5>
+                <h5 class="resume-h5">Responsibilities and Achievements</h5>
                 <ul>
                   <li>Menu creation and updating</li>
                   <li>Ordering all the supplies for the restaurant</li>
@@ -217,7 +205,7 @@
                 </ul>
               </details>
               <div class="print">
-                <h5>Responsibilities and Achievements</h5>
+                <h5 class="resume-h5">Responsibilities and Achievements</h5>
                 <ul>
                   <li>Menu creation and updating</li>
                   <li>Ordering all the supplies for the restaurant</li>

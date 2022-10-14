@@ -4,8 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../universal.css" />
-    <link rel="stylesheet" href="style-projects.css" />
+    <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,7 +14,10 @@
     <title>Ryan Iguchi &dash; Projects</title>
   </head>
   <body>
-    <input type="checkbox" class="dark-mode-checkbox" />
+    <input
+      type="checkbox"
+      class="dark-mode-checkbox dark-mode-checkbox-projects"
+    />
     <header class="header">
       <section class="header-left">
         <div class="header-mobile-name">
@@ -28,31 +30,27 @@
       <nav class="header-nav" aria-label="Site navigation">
         <ul class="header-nav--list">
           <li>
-            <a href="../index.html" id="about" class="header-nav--link"
+            <a href="index.html" id="about" class="header-nav--link"
               >about me</a
             >
           </li>
           <li>
-            <a href="../resume/resume.html" id="resume" class="header-nav--link"
+            <a href="resume.html" id="resume" class="header-nav--link"
               >resume</a
             >
           </li>
           <li>
-            <a
-              href="../education/education.html"
-              id="education"
-              class="header-nav--link"
+            <a href="education.html" id="education" class="header-nav--link"
               >education</a
             >
           </li>
           <li>
-            <a href="#" id="portfolio" class="header-nav--link">portfolio</a>
+            <a href="#" id="portfolio" class="header-nav--link current-page"
+              >portfolio</a
+            >
           </li>
           <li>
-            <a
-              href="../contact/contact.html"
-              id="contact"
-              class="header-nav--link"
+            <a href="contact.html" id="contact" class="header-nav--link"
               >contact</a
             >
           </li>
@@ -65,31 +63,27 @@
       <nav class="mobile-nav" aria-label="Site navigation">
         <ul class="mobil-nav--list">
           <li>
-            <a href="../index.html" id="about" class="mobile-nav--link"
+            <a href="index.html" id="about" class="mobile-nav--link"
               >about me</a
             >
           </li>
           <li>
-            <a href="../resume/resume.html" id="resume" class="mobile-nav--link"
+            <a href="resume.html" id="resume" class="mobile-nav--link"
               >resume</a
             >
           </li>
           <li>
-            <a
-              href="../education/education.html"
-              id="education"
-              class="mobile-nav--link"
+            <a href="education.html" id="education" class="mobile-nav--link"
               >education</a
             >
           </li>
           <li>
-            <a href="#" id="portfolio" class="mobile-nav--link">portfolio</a>
+            <a href="#" id="portfolio" class="mobile-nav--link current-page"
+              >portfolio</a
+            >
           </li>
           <li>
-            <a
-              href="../contact/contact.html"
-              id="contact"
-              class="mobile-nav--link"
+            <a href="contact.html" id="contact" class="mobile-nav--link"
               >Contact</a
             >
           </li>
@@ -105,17 +99,17 @@
           <!-- PROJECT IMAGES FOR THE LEFT SIDE -->
           <section class="slide-left">
             <img
-              src="./img/cv.webp"
+              src="img/img-projects/cv.webp"
               alt="Left side carousel image"
               class="cv-slide-img-left"
             />
             <img
-              src="./img/bj.webp"
+              src="img/img-projects/bj.webp"
               alt="Left side carousel image"
               class="bj-slide-img-left"
             />
             <img
-              src="./img/of.webp"
+              src="img/img-projects/of.webp"
               alt="Left side carousel image"
               class="of-slide-img-left"
             />
@@ -136,12 +130,12 @@
               <!-- image -->
               <div class="img-box">
                 <img
-                  src="./img/monitor.webp"
+                  src="img/img-projects/monitor.webp"
                   alt="Picture of a monitor"
                   class="monitor-img"
                 />
                 <img
-                  src="./img/projects-cv-img.webp"
+                  src="img/img-projects/projects-cv-img.webp"
                   alt="Picture of my CV website"
                   class="project-img cv-img"
                 />
@@ -150,7 +144,7 @@
                 <!-- modal -->
 
                 <!-- text -->
-                <h1>My Personal CV-Website</h1>
+                <h1 class="projects-h1">My Personal CV-Website</h1>
                 <p class="project-card-description">
                   My online CV, showcasing some of my web design skills. It's
                   what you're looking at right now!
@@ -163,12 +157,12 @@
               <!-- image -->
               <div class="img-box">
                 <img
-                  src="./img/monitor.webp"
+                  src="img/img-projects/monitor.webp"
                   alt="Picture of a monitor"
                   class="monitor-img"
                 />
                 <img
-                  src="./img/projects-bj.webp"
+                  src="img/img-projects/projects-bj.webp"
                   alt="Picture of my BlackJack game"
                   class="project-img cv-img"
                 />
@@ -177,7 +171,7 @@
                 <!-- modal -->
 
                 <!-- text -->
-                <h1>Single-player Black Jack</h1>
+                <h1 class="projects-h1">Single-player Black Jack</h1>
                 <p class="project-card-description">
                   My first game! Play against the dealer and see if you can win
                   big!!
@@ -190,12 +184,12 @@
               <!-- image -->
               <div class="img-box">
                 <img
-                  src="./img/monitor.webp"
+                  src="img/img-projects/monitor.webp"
                   alt="Picture of a monitor"
                   class="monitor-img"
                 />
                 <img
-                  src="./img/projects-of.webp"
+                  src="img/img-projects/projects-of.webp"
                   alt="Picture of my Omnifood website"
                   class="project-img of-img"
                 />
@@ -203,7 +197,7 @@
               <div class="project-card-text-box">
                 <!-- modal -->
                 <!-- text -->
-                <h1>Food Delivery Website Concept</h1>
+                <h1 class="projects-h1">Food Delivery Website Concept</h1>
                 <p class="project-card-description">
                   My first website which helped me develop essential wed
                   development skills.
@@ -217,7 +211,7 @@
               <ion-icon name="close-outline" class="close-icon"></ion-icon>
               <div class="modal-content-of">
                 <img
-                  src="./img/of-img-1.webp"
+                  src="img/img-projects/of-img-1.webp"
                   alt="Omnifood Features Section"
                   class="modal-img of-img-1"
                 />
@@ -242,13 +236,13 @@
                   </ul>
                 </article>
                 <img
-                  src="./img/of-img-2.webp"
+                  src="img/img-projects/of-img-2.webp"
                   alt="Omnifood Gallery Section"
                   class="modal-img of-img-2"
                 />
                 <article class="modal-testimonial">
                   <img
-                    src="./img/tamela.webp"
+                    src="img/img-projects/tamela.webp"
                     alt="Tamela Hedström"
                     class="tamela-img"
                   />
@@ -258,14 +252,16 @@
                   <span class="tamela-name">&dash; Tamela Hedström</span>
                 </article>
                 <article class="modal-lorem">
-                  <h1 class="lorem-title">Lorem ipsum dolor, sit amet</h1>
+                  <h1 class="lorem-title projects-h1">
+                    Lorem ipsum dolor, sit amet
+                  </h1>
                   <p class="lorem-text">
                     adipisicing elit. Veritatis, explicabo blanditiis. Esse ab
                     quod rerum non
                   </p>
                 </article>
                 <img
-                  src="./img/of-img-3.webp"
+                  src="img/img-projects/of-img-3.webp"
                   alt="Omnifood Cards Section"
                   class="modal-img of-img-3"
                 />
@@ -284,7 +280,7 @@
                   </div>
                 </article>
                 <img
-                  src="./img/of-img-4.webp"
+                  src="img/img-projects/of-img-4.webp"
                   alt="Omnifood Call-to-Action Section"
                   class="modal-img of-img-4"
                 />
@@ -294,17 +290,17 @@
           <!-- PROJECT IMAGES FOR THE RIGHT SIDE -->
           <section class="slide-right">
             <img
-              src="./img/cv.webp"
+              src="img/img-projects/cv.webp"
               alt="Right side carousel image"
               class="cv-slide-img-right"
             />
             <img
-              src="./img/bj.webp"
+              src="img/img-projects/bj.webp"
               alt="Right side carousel image"
               class="bj-slide-img-right"
             />
             <img
-              src="./img/of.webp"
+              src="img/img-projects/of.webp"
               alt="Right side carousel image"
               class="of-slide-img-right"
             />

@@ -683,7 +683,7 @@ footer {
 
   border-radius: 50%;
 
-  animation: drop ease-in 5s 0.5s infinite;
+  animation: drop ease-in 8s 0.5s infinite;
   animation-fill-mode: forwards;
 }
 

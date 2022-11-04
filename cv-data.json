@@ -1,10 +1,15 @@
 {
   "img": "img/cv.png",
+  "alt": "Picture of my CV website",
   "title": "My CV-Website Without JavaScript",
   "titleText": "The first version of my CV, created without any Javascript.",
   "modalTitle": "My CV",
   "category": "Website",
   "tech": "HTML & CSS",
   "modalText": "This was the first version of my CV where I used only CSS for the functionality. I can now do magic with checkboxes! Unfortunately, its a pretty useless skill!",
-  "num": 6
+  "num": 6,
+  "type": "desktop",
+  "className": "cv",
+  "gitHub": "https://github.com/Ryiguchi/my-cv",
+  "link": "https://ryiguchi.github.io/my-cv"
 }

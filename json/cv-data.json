@@ -1,5 +1,5 @@
 {
-  "img": "img/cv.png",
+  "img": "https://raw.githubusercontent.com/Ryiguchi/my-cv/main/json/cv.png",
   "alt": "Picture of my CV website",
   "title": "My CV-Website Without JavaScript",
   "titleText": "The first version of my CV, created without any Javascript.",
